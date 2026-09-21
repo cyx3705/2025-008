@@ -1,0 +1,119 @@
+# LFS 规则：不到 100MB 的文件一律不走 LFS。
+# ≥100MB 的具体文件由下面的 HistoryJanus lfs 托管块逐条列出，其余行不得出现 filter=lfs。
+* text=auto
+
+b-EPLAN/N0000.edb/Images/EPLAN.jpg -text
+b-EPLAN/N0000.edb/Images/EPLAN_LOGO.BMP -text
+b-Module-2D/核心件.dft -text
+b-Module-2D/核心件.dwg -text
+b-Module-GE/Repaired_装配体-6.STEP -text
+b-Module-GE/上法兰盘.stp -text
+b-Module-GE/上盖.stp -text
+b-Module-GE/上端面.stp -text
+b-Module-GE/下.stp -text
+b-Module-GE/下法兰盘.stp -text
+b-Module-GE/下盖.stp -text
+b-Module-GE/下端面.stp -text
+b-Module-GE/卡槽上.stp -text
+b-Module-GE/卡槽下.stp -text
+b-Module-GE/弹簧.stp -text
+b-Module-GE/核心件.stp -text
+b-Module-GE/滑块.stp -text
+b-Module-GE/电磁铁.stp -text
+b-Module-GE/连接单元.stp -text
+b-Module-SE/SE丝杆版/上法兰盘.par -text
+b-Module-SE/SE丝杆版/上盖.par -text
+b-Module-SE/SE丝杆版/上端面.par -text
+b-Module-SE/SE丝杆版/下法兰盘.par -text
+b-Module-SE/SE丝杆版/下盖.par -text
+b-Module-SE/SE丝杆版/下端面.par -text
+b-Module-SE/SE丝杆版/丝杆.par -text
+b-Module-SE/SE丝杆版/卡槽上.par -text
+b-Module-SE/SE丝杆版/卡槽下.par -text
+b-Module-SE/SE丝杆版/弹簧.par -text
+b-Module-SE/SE丝杆版/核心件.par -text
+b-Module-SE/SE丝杆版/滑块.par -text
+b-Module-SE/SE丝杆版/电机/1.jpg -text
+b-Module-SE/SE丝杆版/电机/2.jpg -text
+b-Module-SE/SE丝杆版/电机/motor.SLDPRT -text
+"b-Module-SE/SE丝杆版/电机/n20 motor.IGS" -text
+"b-Module-SE/SE丝杆版/电机/n20 motor.SLDASM" -text
+b-Module-SE/SE丝杆版/电机/n20_gearbox.SLDPRT -text
+b-Module-SE/SE丝杆版/电机/n20_shaft.SLDPRT -text
+b-Module-SE/SE丝杆版/电机/~$motor.SLDPRT -text
+"b-Module-SE/SE丝杆版/电机/~$n20 motor.SLDASM" -text
+b-Module-SE/SE丝杆版/电机/~$n20_gearbox.SLDPRT -text
+b-Module-SE/SE丝杆版/电机/~$n20_shaft.SLDPRT -text
+"b-Module-SE/SE丝杆版/电机SE/n20 motor.asm" -text
+"b-Module-SE/SE丝杆版/电机SE/n20 motor.cfg" -text
+"b-Module-SE/SE丝杆版/电机SE/n20 motor.par" -text
+"b-Module-SE/SE丝杆版/电机SE/n20 motor_0.par" -text
+"b-Module-SE/SE丝杆版/电机SE/n20 motor_1.par" -text
+"b-Module-SE/SE丝杆版/电机SE/n20 motor_2.par" -text
+"b-Module-SE/SE丝杆版/电机SE/n20 motor_3.par" -text
+"b-Module-SE/SE丝杆版/电机SE/n20 motor_4.par" -text
+"b-Module-SE/SE丝杆版/电机SE/n20 motor_5.par" -text
+"b-Module-SE/SE丝杆版/电机SE/n20 motor_6.par" -text
+"b-Module-SE/SE丝杆版/电机SE/n20 motor_7.par" -text
+"b-Module-SE/SE丝杆版/电机SE/n20 motor_8.par" -text
+"b-Module-SE/SE丝杆版/电机SE/n20 motor_9.par" -text
+b-Module-SE/SE丝杆版/电磁铁.par -text
+b-Module-SE/SE丝杆版/连接单元.asm -text
+b-Module-SE/SE丝杆版/连接单元.cfg -text
+b-Module-SE/SE丝杆版/连接单元.wmv -text
+b-Module-SE/SE手动版/上法兰盘.par -text
+b-Module-SE/SE手动版/上盖.par -text
+b-Module-SE/SE手动版/上端面.par -text
+b-Module-SE/SE手动版/下法兰盘.par -text
+b-Module-SE/SE手动版/下盖.par -text
+b-Module-SE/SE手动版/下端面.par -text
+b-Module-SE/SE手动版/卡槽上.par -text
+b-Module-SE/SE手动版/卡槽下.par -text
+b-Module-SE/SE手动版/弹簧.par -text
+b-Module-SE/SE手动版/核心件.par -text
+b-Module-SE/SE手动版/滑块.par -text
+b-Module-SE/SE手动版/电磁铁.par -text
+b-Module-SE/SE手动版/连接单元.asm -text
+b-Module-SE/SE手动版/连接单元.cfg -text
+b-Module-SE/SE手动版/连接单元.wmv -text
+b-Module-SE/上法兰盘.par -text
+b-Module-SE/上盖.par -text
+b-Module-SE/上端面.par -text
+b-Module-SE/下法兰盘.par -text
+b-Module-SE/下盖.par -text
+b-Module-SE/下端面.par -text
+b-Module-SE/卡槽上.par -text
+b-Module-SE/卡槽下.par -text
+b-Module-SE/弹簧.par -text
+b-Module-SE/核心件.par -text
+b-Module-SE/滑块.par -text
+b-Module-SE/电磁铁.par -text
+b-Module-SE/连接单元.asm -text
+b-Module-SE/连接单元.cfg -text
+b-Module-SW/Repaired_装配体-6.SLDASM -text
+b-Module-SW/上法兰盘.SLDPRT -text
+b-Module-SW/上盖.SLDPRT -text
+b-Module-SW/上端面.SLDPRT -text
+b-Module-SW/下法兰盘.SLDPRT -text
+b-Module-SW/下盖.SLDPRT -text
+b-Module-SW/下端面.SLDPRT -text
+b-Module-SW/卡槽上.SLDPRT -text
+b-Module-SW/卡槽下.SLDPRT -text
+b-Module-SW/弹簧.SLDPRT -text
+b-Module-SW/核心件.SLDPRT -text
+b-Module-SW/滑块.SLDPRT -text
+b-Module-SW/电磁铁.stp.SLDPRT -text
+b-Office/连接单元可靠性计算.pptx -text
+b-Office/附件一，均普杯成果展示.pptx -text
+b-Office/附件二、连接单元技术说明文档.docx -text
+b-Picture/效果图.png -text
+"b-Picture/有限元分析 (1).png" -text
+"b-Picture/有限元分析 (2).png" -text
+b-Picture/有限元分析(3).jpg -text
+b-Picture/有限元分析(4).jpg -text
+b-Picture/渲染.ksp -text
+b-References/第一届“均普杯”迷你科技竞赛通知.pdf -text
+b-References/附件一、竞赛题目.pdf -text
+b-References/附件三、在线报名表与作品提交连接.docx -text
+b-References/附件二、技术说明文档模板.docx -text
+b-Video/连接单元.wmv -text
